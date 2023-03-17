@@ -9,13 +9,13 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-{printf("%d is pisitive\n", &n);
+{printf("%ls is pisitive\n", &n);
 }
 else if (n == 0)
-{printf("%d is zero\n", &n);
+{printf("%ls is zero\n", &n);
 }
 else 
-printf("%d is negative\n", &n);
+printf("%ls is negative\n", &n);
 /* your code goes there */
  return (0);
 }
