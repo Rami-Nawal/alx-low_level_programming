@@ -15,18 +15,15 @@ int main(void)
 		for (b = '1'; b <= '9'; b++)
 		{
 			for (c = '2'; c <= '9'; c++)
-				if (a != b && a < b)
+				if (a != b && a < b && b != c && b < c)
 				{
-					if (b != c && b < c)
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a != '7')
 					{
-						putchar(a);
-						putchar(b);
-						putchar(c);
-						if (a != '7')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
 		}
