@@ -7,8 +7,13 @@
  */
 int main(void)
 {
-	char a[] = "_putchar\n";
+	char a[] = "_putchar";
+	int i;
 
-	write(1, a, 8);
+	for (i = 1, i <= 8, i++)
+	{
+		_putchar(a[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
