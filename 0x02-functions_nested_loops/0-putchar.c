@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  *
@@ -6,6 +7,8 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char a[] = "_putchar\n";
+
+	write(1, a, 8);
 	return (0);
 }
