@@ -4,7 +4,7 @@
  * _strchr - function that locates a character in a string
  * @s: pointer
  * @c: character
- * Retuen: the first occurrence of the character c in the string
+ * Return: the first occurrence of the character c in the string
  */
 
 char *_strchr(char *s, char c)
