@@ -1,0 +1,149 @@
+!<arch>
+0-isupper.c/    0           0     0     644     63        `
+#include "main.h"
+int _isupper(int c);
+int _isupper(int c)
+{
+}
+
+0-memset.c/     0           0     0     644     117       `
+#include "main.h"
+char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
+{
+}
+
+0-strcat.c/     0           0     0     644     97        `
+#include "main.h"
+char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
+{
+}
+
+100-atoi.c/     0           0     0     644     61        `
+#include "main.h"
+int _atoi(char *s);
+int _atoi(char *s)
+{
+}
+
+1-isdigit.c/    0           0     0     644     63        `
+#include "main.h"
+int _isdigit(int c);
+int _isdigit(int c)
+{
+}
+
+1-memcpy.c/     0           0     0     644     129       `
+#include "main.h"
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+}
+
+1-strncat.c/    0           0     0     644     113       `
+#include "main.h"
+char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
+{
+}
+
+2-strchr.c/     0           0     0     644     85        `
+#include "main.h"
+char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
+{
+}
+
+2-strlen.c/     0           0     0     644     65        `
+#include "main.h"
+int _strlen(char *s);
+int _strlen(char *s)
+{
+}
+
+2-strncpy.c/    0           0     0     644     113       `
+#include "main.h"
+char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
+{
+}
+
+3-islower.c/    0           0     0     644     63        `
+#include "main.h"
+int _islower(int c);
+int _islower(int c)
+{
+}
+
+3-puts.c/       0           0     0     644     63        `
+#include "main.h"
+void _puts(char *s);
+void _puts(char *s)
+{
+}
+
+3-strcmp.c/     0           0     0     644     87        `
+#include "main.h"
+int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
+{
+}
+
+3-strspn.c/     0           0     0     644     111       `
+#include "main.h"
+unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
+{
+}
+
+4-isalpha.c/    0           0     0     644     63        `
+#include "main.h"
+int _isalpha(int c);
+int _isalpha(int c)
+{
+}
+
+4-strpbrk.c/    0           0     0     644     99        `
+#include "main.h"
+char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
+{
+}
+
+5-strstr.c/     0           0     0     644     111       `
+#include "main.h"
+char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
+{
+}
+
+6-abs.c/        0           0     0     644     55        `
+#include "main.h"
+int _abs(int n);
+int _abs(int n)
+{
+}
+
+9-strcpy.c/     0           0     0     644     97        `
+#include "main.h"
+char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
+{
+}
+
+main.c/         0           0     0     644     148       `
+#include "main.h"
+
+int main(void)
+{
+    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+    return (0);
+}
+_putchar.c/     0           0     0     644     92        `
+#include "main.h"
+int _putchar(char c);
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
